@@ -1,4 +1,4 @@
-Prerequisites:
+Prerequisites: 
 
 NVIDIA TAO Toolkit requires an NVIDIA graphics card and driver to use their docker container, so you must have one to proceed. At least 16 GBs physical RAM, 50 GB of available memory, and an 8 Core CPU are needed to run this successfully. We tested on Python 3.6.9, and used UBUNTU 18.04. TAO Toolkit requires NVIDIA driver 455.xx or later.
 
