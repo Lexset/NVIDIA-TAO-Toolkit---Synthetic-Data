@@ -1,0 +1,10 @@
+kitti_config {
+  root_directory_path: "/workspace/tao-experiments/data/real_test"
+  image_dir_name: "images"
+  label_dir_name: "labels"
+  image_extension: ".jpg"
+  partition_mode: "random"
+  num_partitions: 2
+  val_split: 99
+}
+image_directory_path: "/workspace/tao-experiments/data/real_test"

@@ -1,0 +1,28 @@
+kitti_config {
+  root_directory_path: "/workspace/tao-experiments/data/"
+  image_dir_name: "real_train_20/images"
+  label_dir_name: "real_train_20/labels"
+  image_extension: ".jpg"
+  partition_mode: "random"
+  num_partitions: 2
+  val_split: 0
+  num_shards: 10
+}
+image_directory_path: "/workspace/tao-experiments/data/"
+  target_class_mapping {
+      key: "screw1"
+      value: "screw1"
+  }
+  target_class_mapping {
+      key: "screw3"
+      value: "screw3"
+  }
+  target_class_mapping {
+      key: "screw6"
+      value: "screw6"
+  }
+  target_class_mapping {
+      key: "screw8"
+      value: "screw8"
+  }
+
